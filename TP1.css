@@ -1,0 +1,44 @@
+*{
+   box-sizing: border-box;
+}
+nav{    
+    background: gray;
+    height: 5rem;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-around;
+  
+}
+nav ul li{
+    list-style: none;
+    background: rgb(192, 93, 192);
+    padding: 0.8rem;
+    margin-top: 15px;
+}
+nav ul li:hover{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+h2{
+   text-align: center;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+}
+table{
+    height: 13rem;
+}
+.tab2{
+    border: 2px solid black;
+}
+footer{
+    display: flex;
+    height: 2.5rem;
+    text-align: center;
+    background: rgb(192, 93, 192);
+    align-items: center;
+    justify-content: center;
+}
